@@ -6,7 +6,7 @@ import { MobileNav } from "./mobile-nav";
 
 export const Header = () => {
   return (
-    <header className="bg-[#12182B] h-[4rem] flex items-center justify-between max-w-6xl:px-[10rem] lg:px-[6rem] md:px-[4rem] relative">
+    <header className="bg-[#12182B] h-[4rem] flex items-center justify-between max-w-6xl:px-[10rem] lg:px-[4rem] md:px-[4rem] relative">
       <Logo />
       <NavBar />
       <Button
