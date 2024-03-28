@@ -14,7 +14,7 @@ export const HeroSection = () => {
       <div className="flex flex-col gap-y-10">
         <h2 className={cn(hFont.className, "text-7xl relative")}>
           Utilize our <br /> solution to expand <br /> your business.
-          <span className="bg-[#69FAB4] w-[30rem] h-[1.7rem]  absolute bottom-0 left-0 bg-opacity-85"></span>
+          <span className="bg-[#69FAB4] w-[30rem] h-[1.8rem]  absolute bottom-[-0.3rem] left-0 bg-opacity-85"></span>
         </h2>
         <p>
           make your business proper with great team of experts, <br /> we will

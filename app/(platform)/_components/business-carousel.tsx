@@ -25,7 +25,7 @@ const imagesList = [
     path: "/img/business/team4.jpg",
   },
 ];
-
+//TODO  ADD SOME SVGS OR SOMETHING BY THE SIDE OF THE CAROUSEL
 export const BusinessCarousel = () => {
   return (
     <section className="bg-[#12182B] w-full 2xl:h-[50vh] lg:h-[63vh] bg-[url('/img/carousel.svg')] bg-center bg-cover p-[6rem] 2xl:px-[32rem]">
