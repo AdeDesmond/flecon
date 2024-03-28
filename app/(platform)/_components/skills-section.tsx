@@ -10,7 +10,7 @@ export const SkillSection = () => {
   return (
     <section
       className={cn(
-        "2xl:h-[70vh] lg:h-[90vh] w-full bg-[#12182B] p-[4rem] 2xl:px-[32rem]"
+        "2xl:h-[70vh] lg:h-[100vh] w-full bg-[#12182B] p-[4rem] 2xl:px-[32rem]"
       )}
     >
       <h2
