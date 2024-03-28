@@ -2,20 +2,14 @@
 
 import { AlignJustifyIcon } from "lucide-react";
 import { Button } from "./ui/button";
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-} from "./ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle } from "./ui/sheet";
 import { useMobileSidebar } from "@/hooks/use-mobile-nav";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { Logo } from "./logo";
-import { NavBar } from "./nav-bar";
 import { routes } from "@/routes";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
 export const MobileNav = () => {
   const [mounted, setMounted] = useState(false);
@@ -23,6 +17,7 @@ export const MobileNav = () => {
   const onClose = useMobileSidebar((state) => state.onClose);
   const onOpen = useMobileSidebar((state) => state.onOpen);
   const pathName = usePathname();
+
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -44,10 +39,12 @@ export const MobileNav = () => {
             <Logo />
           </SheetHeader>
           <div>
-            <ul className="flex flex-col gap-y-3">
+            <ul className="flex flex-col items-center gap-y-3">
               {routes.map((route) => (
                 <li key={route.label}>
-                  <Link href={route.path}>{route.label}</Link>
+                  <Link href={route.path} className={cn("")}>
+                    {route.label}
+                  </Link>
                 </li>
               ))}
             </ul>
