@@ -1,5 +1,6 @@
 import { ShowBusinessCarousel } from "@/components/show-business-carousel";
 import { ShowClients } from "@/components/show-client";
+import { Subscribe } from "@/components/subscribe";
 import { cn } from "@/lib/utils";
 import localfont from "next/font/local";
 
@@ -29,7 +30,7 @@ export const MentorTeam = () => {
   return (
     <div
       className={cn(
-        "bg-[#FFFFFF] 2xl:h-[70vh] lg:h-[80vh]  p-[6rem] 2xl:px-[32rem]"
+        "bg-[#FFFFFF] 2xl:h-[100vh] lg:h-[100vh]  p-[6rem] 2xl:px-[32rem]"
       )}
     >
       <h2 className={cn(hFont.className, " mb-16 text-4xl text-[#12182B]")}>
@@ -49,6 +50,7 @@ export const MentorTeam = () => {
         meet their needs
       </p>
       <ShowClients />
+      <Subscribe />
     </div>
   );
 };
