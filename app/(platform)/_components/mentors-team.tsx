@@ -38,7 +38,10 @@ export const MentorTeam = () => {
       </h2>
       <ShowBusinessCarousel lists={imagesList} />
       <h3
-        className={cn(" text-5xl text-center text-[#12182B]", hFont.className)}
+        className={cn(
+          " mt-[3.5rem] text-5xl text-center text-[#12182B]",
+          hFont.className
+        )}
       >
         What are our client saying?
       </h3>
