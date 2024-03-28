@@ -10,7 +10,7 @@ const hFont = localfont({
 
 export const HeroSection = () => {
   return (
-    <section className=" 2xl:h-[50vh] lg:h-[63vh] lg:mb-10 2xl:mb-0 bg-[#FFFFFF] w-full  flex justify-center gap-40 p-[4rem] overflow-hidden">
+    <section className=" 2xl:h-[50vh] lg:h-[63vh] lg:mb-10 2xl:mb-0 bg-[#FFFFFF] w-full  flex lg:flex-row flex-col items-center p-4  justify-center gap-40 2xl:p-[4rem] lg:p-[4rem] overflow-hidden">
       <div className="flex flex-col gap-y-10">
         <h2 className={cn(hFont.className, "text-7xl relative")}>
           Utilize our <br /> solution to expand <br /> your business.
@@ -30,7 +30,7 @@ export const HeroSection = () => {
       </div>
 
       <div className="relative w-[30rem] h-[30rem]">
-        <div className="absolute top-0 left-[-7.5rem] z-10">
+        <div className="absolute top-0 left-[-7.5rem] z-10 hidden lg:block">
           <Image
             src="/img/pointer.svg"
             alt="pointer"

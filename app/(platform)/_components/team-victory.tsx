@@ -11,14 +11,14 @@ export const TeamVictory = () => {
   return (
     <section
       className={cn(
-        "bg-[#FFFFFF] 2xl:h-[50vh] lg:h-[60vh] w-full p-[6rem] 2xl:px-[32rem] grid grid-cols-2 place-items-center"
+        "bg-[#FFFFFF] 2xl:h-[50vh] lg:h-[60vh] w-full p-[6rem] 2xl:px-[32rem] grid grid-cols-1 gap-y-[3rem] lg:gap-y-0 lg:grid-cols-2 place-items-center"
       )}
     >
       <div className="relative">
         <div className="absolute left-[-4.5rem] top-[-2rem] bg-[#12182B] h-[6rem] w-[9rem] rounded-md text-white">
           test
         </div>
-        <div className="absolute 2xl:right-[-4rem] 2xl:bottom-[-4rem] lg:right-[-3.5rem] lg:bottom-[-3.5rem]  bg-[#FFFFFF] shadow-lg h-[10rem] w-[8rem] rounded-md ">
+        <div className="absolute 2xl:right-[-4rem] 2xl:bottom-[-4rem] lg:right-[-3.5rem] lg:bottom-[-3.5rem]  bg-[#FFFFFF] shadow-lg h-[10rem] w-[8rem] rounded-md bottom-[-3rem] right-[-3rem]">
           test bottom
         </div>
         <Image

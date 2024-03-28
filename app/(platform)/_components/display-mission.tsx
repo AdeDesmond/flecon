@@ -73,8 +73,6 @@ export const DisplayMission = () => {
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo{" "}
             <br /> est, nulla magni earum praesentium minus vero, ut <br />{" "}
-            cupiditate dolore ad eaque commodi voluptatum aliquid, <br />{" "}
-            tempora <br /> eius voluptatibus! Totam, repellendus unde?{" "}
           </div>
         )}
         {selected === "value" && (
@@ -82,8 +80,6 @@ export const DisplayMission = () => {
             {" "}
             Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />{" "}
             Delectus ipsum nesciunt optio, nisi aspernatur cum nulla unde <br />{" "}
-            animi voluptatem consectetur. Optio assumenda dicta placeat <br />{" "}
-            nemo reprehenderit tenetur voluptatum at hic.
           </div>
         )}
       </div>

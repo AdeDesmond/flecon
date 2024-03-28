@@ -29,7 +29,7 @@ const imagesList = [
 export const BusinessCarousel = () => {
   return (
     <section className="bg-[#12182B] w-full 2xl:h-[50vh] lg:h-[63vh] bg-[url('/img/carousel.svg')] bg-center bg-cover p-[6rem] 2xl:px-[32rem]">
-      <div className="w-full flex justify-between mb-[4rem]">
+      <div className="w-full flex flex-col lg:flex-row gap-4 lg:gap-0 justify-between mb-[4rem]">
         <h2 className={cn(hFont.className, "text-white text-3xl ")}>
           <span className="flex gap-2">
             We provide the best{" "}

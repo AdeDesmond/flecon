@@ -39,7 +39,7 @@ export const MobileNav = () => {
       </Button>
 
       <Sheet open={isOpen} onOpenChange={onClose}>
-        <SheetContent className="w-[400px] sm:w-[540px]">
+        <SheetContent className="w-[400px] sm:w-[540px] z-[100000]">
           <SheetHeader>
             <Logo />
           </SheetHeader>
