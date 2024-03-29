@@ -1,7 +1,12 @@
+import { cn } from "@/lib/utils";
 import React from "react";
 
-function page() {
-  return <div>page</div>;
+function PortFolioPage() {
+  return (
+    <main className={cn("overflow-y-scroll w-full")}>
+      this will be the portfolio page
+    </main>
+  );
 }
 
-export default page;
+export default PortFolioPage;

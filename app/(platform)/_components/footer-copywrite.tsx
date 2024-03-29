@@ -13,7 +13,7 @@ export const FooterCopywrite = () => {
       <div className="text-white">
         All Copywrites @{date.getFullYear()} are reserved by Flecon Company Ltd.
       </div>
-      <div className="flex items-center gap-x-2">
+      <div className="hidden  lg:flex md:flex items-center gap-x-2">
         <Link href="/">
           <MessageCircleIcon className="h-4 w-4 text-white" />
         </Link>
