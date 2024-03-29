@@ -2,6 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-primary: #ffffff;
+  --secondary-color: #69fab4;
+}
+
+.skills__design--progress,
+.skills__coding--progress {
+  position: relative;
+  display: block;
+  padding: 0.1rem;
+  border-radius: 3rem;
+  background-color: var(--color-primary);
+  width: 100%;
+  margin-bottom: 0.2rem;
+}
+
+.skills__design--progress span,
+.skills__coding--progress span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  height: 0.2rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: var(--secondary-color);
+}
+
+.skills__design--progress__1 {
+  animation: design-1 4s infinite cubic-bezier(1, 0, 0, 1);
+}
+
+@keyframes design-1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
