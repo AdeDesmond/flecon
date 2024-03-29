@@ -11,7 +11,7 @@ export const TeamVictory = () => {
   return (
     <section
       className={cn(
-        "bg-[#FFFFFF] 2xl:h-[50vh] lg:h-[60vh] w-full p-[6rem] 2xl:px-[32rem] grid grid-cols-1 gap-y-[3rem] lg:gap-y-0 lg:grid-cols-2 place-items-center"
+        "bg-[#FFFFFF] w-full p-[6rem] 2xl:px-[32rem] grid grid-cols-1 gap-y-[3rem] lg:gap-y-0 lg:grid-cols-2 place-items-center"
       )}
     >
       <div className="relative">
@@ -43,3 +43,5 @@ export const TeamVictory = () => {
     </section>
   );
 };
+
+// 2xl:h-[50vh] lg:h-[60vh]

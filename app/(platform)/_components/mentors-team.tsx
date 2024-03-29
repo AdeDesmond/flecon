@@ -28,11 +28,7 @@ const hFont = localfont({
 });
 export const MentorTeam = () => {
   return (
-    <div
-      className={cn(
-        "bg-[#FFFFFF] 2xl:h-[100vh] lg:h-[100vh]  p-[6rem] 2xl:px-[32rem]"
-      )}
-    >
+    <div className={cn("bg-[#FFFFFF]   p-[6rem] 2xl:px-[32rem]")}>
       <h2 className={cn(hFont.className, " mb-16 text-4xl text-[#12182B]")}>
         Our mentors are <br /> expert in different fields.
       </h2>
@@ -54,3 +50,5 @@ export const MentorTeam = () => {
     </div>
   );
 };
+
+//2xl:h-[100vh] lg:h-[100vh]

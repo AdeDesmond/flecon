@@ -13,7 +13,7 @@ import {
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full min-h-screen">
       <Suspense fallback={<HeroSkeleton />}>
         <HeroSection />
       </Suspense>

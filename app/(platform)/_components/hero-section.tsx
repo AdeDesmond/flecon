@@ -10,7 +10,7 @@ const hFont = localfont({
 
 export const HeroSection = () => {
   return (
-    <section className=" 2xl:h-[50vh] lg:h-[63vh] lg:mb-10 2xl:mb-0 bg-[#FFFFFF] w-full  flex lg:flex-row flex-col items-center p-4  justify-center lg:gap-40 2xl:gap-40 gap-16 2xl:p-[4rem] lg:p-[4rem] overflow-hidden">
+    <section className=" lg:mb-10 2xl:mb-0 bg-[#FFFFFF] w-full  flex lg:flex-row flex-col items-center p-4  justify-center lg:gap-40 2xl:gap-40 gap-16 2xl:p-[4rem] lg:p-[4rem] overflow-hidden">
       <div className="flex flex-col gap-y-10 items-center lg:items-start">
         <h2
           className={cn(

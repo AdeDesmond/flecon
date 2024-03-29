@@ -8,11 +8,7 @@ const hFont = localfont({
 
 export const SkillSection = () => {
   return (
-    <section
-      className={cn(
-        "2xl:h-[70vh] lg:h-[100vh] w-full bg-[#12182B] p-[4rem] 2xl:px-[32rem]"
-      )}
-    >
+    <section className={cn(" w-full bg-[#12182B] p-[4rem] 2xl:px-[32rem]")}>
       <h2
         className={cn("text-center text-4xl text-white mb-4", hFont.className)}
       >
@@ -26,3 +22,5 @@ export const SkillSection = () => {
     </section>
   );
 };
+
+//2xl:h-[70vh] lg:h-[100vh]
