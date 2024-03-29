@@ -1,6 +1,8 @@
 import { Header } from "@/components/header";
 import { cn } from "@/lib/utils";
 import localfont from "next/font/local";
+import { Footer } from "./_components/footer";
+import { FooterCopywrite } from "./_components/footer-copywrite";
 
 interface FleconLayoutProps {
   children: React.ReactNode;
@@ -15,6 +17,8 @@ export default function FleconLayout({ children }: FleconLayoutProps) {
     <div className="w-full min-h-screen">
       <Header />
       {children}
+      <Footer />
+      <FooterCopywrite />
     </div>
   );
 }

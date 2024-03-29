@@ -10,8 +10,6 @@ import {
   MentorsSkeleton,
   TeamVictorySkeleton,
 } from "@/components/skeletons";
-import { Footer } from "./_components/footer";
-import { FooterCopywrite } from "./_components/footer-copywrite";
 
 export default function Home() {
   return (
@@ -29,8 +27,6 @@ export default function Home() {
       <Suspense fallback={<MentorsSkeleton />}>
         <MentorTeam />
       </Suspense>
-      <Footer />
-      <FooterCopywrite />
     </main>
   );
 }
