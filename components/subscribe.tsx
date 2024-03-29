@@ -8,7 +8,7 @@ const hFont = localfont({
 
 export const Subscribe = () => {
   return (
-    <div className="w-[90%] h-[30vh] rounded-lg bg-[#12182B] mx-auto mt-10 lg:p-[4rem] 2xl:p-[4rem] p-[2rem]">
+    <div className="w-[90%]  rounded-lg bg-[#12182B] mx-auto mt-10 lg:p-[2rem] 2xl:p-[4rem] p-[2rem]">
       <h2
         className={cn(
           hFont.className,

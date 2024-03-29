@@ -10,10 +10,12 @@ import {
   MentorsSkeleton,
   TeamVictorySkeleton,
 } from "@/components/skeletons";
+import { Footer } from "./_components/footer";
+import { FooterCopywrite } from "./_components/footer-copywrite";
 
 export default function Home() {
   return (
-    <div className="w-full min-h-screen">
+    <main className="w-full min-h-screen">
       <Suspense fallback={<HeroSkeleton />}>
         <HeroSection />
       </Suspense>
@@ -27,6 +29,8 @@ export default function Home() {
       <Suspense fallback={<MentorsSkeleton />}>
         <MentorTeam />
       </Suspense>
-    </div>
+      <Footer />
+      <FooterCopywrite />
+    </main>
   );
 }
