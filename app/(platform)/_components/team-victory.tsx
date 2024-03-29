@@ -11,7 +11,7 @@ export const TeamVictory = () => {
   return (
     <section
       className={cn(
-        "bg-[#FFFFFF] w-full p-[6rem] 2xl:px-[32rem] grid grid-cols-1 gap-y-[3rem] lg:gap-y-0 lg:grid-cols-2 place-items-center"
+        "bg-[#FFFFFF] w-full p-[6rem] 2xl:px-[32rem] grid grid-cols-1 gap-y-[3rem] xl:gap-10 2xl:gap-10 lg:gap-y-0 lg:grid-cols-2 place-items-center"
       )}
     >
       <div className="relative">
