@@ -13,7 +13,7 @@ export const Header = () => {
         className="bg-[#69FAB4] text-black font-bold hover:bg-emerald-800 hover:text-white transiton hidden lg:block md:block"
         asChild
       >
-        <Link href="/">Sign up</Link>
+        <Link href="/sign-up">Sign up</Link>
       </Button>
       <MobileNav />
     </header>
