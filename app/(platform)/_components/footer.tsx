@@ -12,7 +12,6 @@ export const Footer = () => {
   return (
     <footer className="w-[90%] grid grid-cols-1 lg:grid-cols-4 place-items-center mb-10 gap-y-4 lg:gap-y-0">
       <div>
-        <p>loggo</p>
         <Logo />
       </div>
       <div>
